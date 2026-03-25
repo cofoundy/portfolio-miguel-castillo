@@ -2,7 +2,7 @@
 
 Portafolio profesional.
 
-**Live:** *Se actualizará después del deploy*
+**Live:** [miguel-castillo.cofoundy.dev](https://miguel-castillo.cofoundy.dev/)
 
 ## Tech Stack
 
