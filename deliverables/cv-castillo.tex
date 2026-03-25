@@ -1,0 +1,132 @@
+% Harvard-Format Professional CV — Miguel Castillo
+% Compile with: xelatex cv-castillo.tex
+% Language: French
+
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[margin=0.5in, top=0.45in, bottom=0.45in]{geometry}
+\usepackage{fontspec}
+\usepackage{fontawesome5}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{tabularx}
+
+% --- Fonts (macOS system fonts) ---
+\setmainfont{Times New Roman}
+\setsansfont{Helvetica Neue}
+
+% --- Colors ---
+\definecolor{headrule}{HTML}{2c3e50}
+\definecolor{linkblue}{HTML}{1a5276}
+
+% --- Hyperlinks ---
+\hypersetup{colorlinks=true, urlcolor=linkblue, linkcolor=linkblue, pdfborder={0 0 0}}
+
+% --- Section Formatting ---
+\titleformat{\section}
+  {\normalsize\bfseries\centering}
+  {}
+  {0em}
+  {\vspace{-0.3em}\hrulefill\quad}[\quad\hrulefill\vspace{-0.3em}]
+\titlespacing{\section}{0pt}{0.4em}{0.2em}
+
+% --- List Formatting ---
+\setlist[itemize]{nosep, left=0pt, label=\textbullet, itemsep=0pt, topsep=1pt}
+
+% --- No page numbers ---
+\pagestyle{empty}
+
+% --- Custom Commands ---
+\newcommand{\entry}[4]{%
+  \noindent\textbf{#1} \hfill #2 \par\nopagebreak
+  \textit{#3} \hfill \textit{#4} \par\nopagebreak
+}
+
+\begin{document}
+
+% ============================================
+% HEADER
+% ============================================
+\begin{center}
+  {\LARGE\bfseries Miguel Castillo} \\[3pt]
+  \faIcon{map-marker-alt}\enspace Juvisy-sur-Orge, \^Ile-de-France
+  \quad\faIcon{envelope}\enspace \href{mailto:migcast@hotmail.com}{migcast@hotmail.com}
+  \quad\faIcon{linkedin}\enspace \href{https://www.linkedin.com/in/migcast/}{linkedin.com/in/migcast}
+\end{center}
+
+\vspace{-0.4em}
+\noindent\rule{\textwidth}{0.8pt}
+\vspace{-0.6em}
+
+% ============================================
+\section{Exp\'erience Professionnelle}
+
+\entry{Atlantique Packaging}{Essonne (91)}{Gestionnaire ADV \& Relation Clients}{2024 -- 2026}
+\begin{itemize}
+  \item Coordonn\'e et pilot\'e l'activit\'e du service ADV, am\'eliorant la r\'eactivit\'e de traitement des commandes de 20\%
+  \item G\'er\'e les tableaux de bord (statistiques, CA, grilles de prix) pour le suivi de la performance commerciale
+  \item Supervis\'e le cycle complet des commandes via ERP, du devis \`a la facturation
+\end{itemize}
+\vspace{0.2em}
+
+\entry{Freelance}{\^Ile-de-France}{Conseiller en Strat\'egie de Communication Webmarketing}{2018 -- Pr\'esent}
+\begin{itemize}
+  \item Con\c{c}u la strat\'egie de lancement de l'association HARO-art, promouvant 10+ artistes locaux via marketplace en ligne
+  \item D\'evelopp\'e un site bilingue pour le projet CHIC (Plaine Commune), ciblant les $<$25~ans via Snapchat et Instagram
+  \item Cr\'e\'e le site web du Restaurant Dream Sushi~91 avec SEO et Google Maps, augmentant la visibilit\'e locale
+\end{itemize}
+\vspace{0.2em}
+
+\entry{Genopole}{Essonne (91)}{Gestionnaire ADV, Relation Clients \& Charg\'e de Projets}{2022 -- 2023}
+\begin{itemize}
+  \item Cr\'e\'e un poste au service comptable et commercial, structurant les processus ADV du campus
+  \item N\'egoci\'e les contrats fibre REVE pour les startups du campus biotech
+  \item Contribu\'e aux projets RIE (400+ adh\'erents) et Protopia (Biotech Food Lab)
+\end{itemize}
+\vspace{0.2em}
+
+\entry{Intelcia (SFR Business)}{Seine-et-Marne (77)}{Relation Client \& Charg\'e de Gestion D\'eploiement Fibre B2B}{2019 -- 2022}
+\begin{itemize}
+  \item Coordonn\'e le d\'eploiement de la fibre optique B2B chez les souscripteurs professionnels sur 3~ans
+  \item Pilot\'e le suivi de satisfaction client sur 2~mois, am\'eliorant le taux de fid\'elisation
+\end{itemize}
+\vspace{0.2em}
+
+\entry{I.A.P.R.}{Paris (75)}{Gestionnaire ADV, CRM \& Chef de Projet IT}{2007 -- 2017}
+\begin{itemize}
+  \item G\'er\'e le cycle de facturation, recouvrement et litiges pour 300+ clients pendant 10~ans
+  \item Administr\'e le SI interne d'un r\'eseau de 500+ psychologues \`a travers la France et DOM-TOM
+  \item Dirig\'e la refonte compl\`ete du SI en tant que MOA~IT : cahier des charges, appel d'offre, recettage, mise en production
+\end{itemize}
+\vspace{0.2em}
+
+\entry{Chanel S.A.}{Seine-Saint-Denis (93)}{Assistant de Projets et de Production, Laboratoire Pilote}{1997 -- 2001}
+
+% ============================================
+\section{Formation}
+
+\entry{VISIPLUS Digital Learning}{Paris (75)}{Executive MBA -- Strat\'egies Web Marketing \& Communication Digitale}{2020 -- 2021}
+\begin{itemize}
+  \item Titre certifi\'e RNCP Niveau~7 (\'equivalent Master)
+\end{itemize}
+\vspace{0.2em}
+
+\entry{IESA Multim\'edia}{Paris (75)}{Chef de Projet Multim\'edia -- Mention Bien}{2017 -- 2018}
+\begin{itemize}
+  \item Titre certifi\'e RNCP Niveau~6 (\'equivalent Licence)
+\end{itemize}
+\vspace{0.2em}
+
+% ============================================
+\section{Comp\'etences \& Compl\'ements}
+
+\begin{tabularx}{\textwidth}{@{} p{2.2cm} X @{}}
+\textbf{Techniques :} & Gestion ADV, CRM/ERP, Projets IT (MOA), Webmarketing (SEM/SMM), Google Analytics, WordPress, Excel (TCD), Facturation \\
+\textbf{Langues :} & Fran\c{c}ais (courant), Espagnol (natif), Anglais (interm\'ediaire) \\
+\textbf{Certifications :} & ITIL~4 Foundation, Google Analytics, Secourisme SST, WordPress (Cegos), Sage Paie / Sage~1000 \\
+\textbf{Int\'er\^ets :} & Danse, gastronomie latino-am\'ericaine, musique (auteur-compositeur), handball (CA du club PEHB) \\
+\end{tabularx}
+
+\end{document}
