@@ -1,9 +1,22 @@
 ---
 import { siteConfig } from "../config";
+import { getLabels, getContent, type Lang } from "../i18n";
 
-const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
-const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
-const hasEducation = siteConfig.education && siteConfig.education.length > 0;
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+const t = getLabels(lang);
+const c = getContent(lang);
+
+const hasProjects = c.projects && c.projects.length > 0;
+const hasExperience = c.experience && c.experience.length > 0;
+const hasEducation = c.education && c.education.length > 0;
+
+const langLinks = {
+  fr: { es: "/es/", en: "/en/" },
+  es: { fr: "/", en: "/en/" },
+  en: { fr: "/", es: "/es/" },
+};
+const others = langLinks[lang];
 ---
 
 <header
@@ -17,30 +30,41 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
     <ul class="flex items-center gap-6">
       <li>
         <a href="#about" class="link-underline text-sm font-medium transition-colors duration-300" style={`color: ${siteConfig.accentColor}; --underline-color: ${siteConfig.highlightColor}`}>
-          À Propos
+          {t.about}
         </a>
       </li>
       {hasProjects && (
         <li>
           <a href="#projects" class="link-underline text-sm font-medium transition-colors duration-300" style={`color: ${siteConfig.accentColor}`}>
-            Projets
+            {t.projects}
           </a>
         </li>
       )}
       {hasExperience && (
         <li>
           <a href="#experience" class="link-underline text-sm font-medium transition-colors duration-300" style={`color: ${siteConfig.accentColor}`}>
-            Expérience
+            {t.experience}
           </a>
         </li>
       )}
       {hasEducation && (
         <li>
           <a href="#education" class="link-underline text-sm font-medium transition-colors duration-300" style={`color: ${siteConfig.accentColor}`}>
-            Formation
+            {t.education}
           </a>
         </li>
       )}
+      <li class="flex gap-1">
+        {Object.entries(others).map(([code, href]) => (
+          <a
+            href={href}
+            class="text-xs font-bold px-2 py-1 rounded-full transition-all duration-200 hover:scale-105"
+            style={`background-color: ${siteConfig.highlightColor}; color: white`}
+          >
+            {code.toUpperCase()}
+          </a>
+        ))}
+      </li>
     </ul>
   </nav>
 </header>
