@@ -315,31 +315,31 @@ export const content = {
         school: "VISIPLUS Digital Learning",
         degree: "Executive MBA – Estrategias Web Marketing & Proyectos Comunicación Digital",
         dateRange: "2020 – 2021",
-        achievements: ["Título certificado RNCP Nivel 7 (EU)"],
+        achievements: ["Título certificado NDPC Nivel 7 (UE)"],
       },
       {
         school: "IESA Multimédia",
         degree: "Jefe de Proyecto Multimedia",
         dateRange: "2017 – 2018",
-        achievements: ["Mención Bien", "Título certificado RNCP Nivel 6 (EU)"],
+        achievements: ["Mención Bien", "Título certificado NDPC Nivel 6 (UE)"],
       },
     ],
   },
   en: {
-    title: "ADV Manager – Client Relations & Webmarketing",
+    title: "SA Manager – Client Relations & Webmarketing",
     description:
-      "ADV Management and Client Relations professional with 25+ years of experience. Specialist in webmarketing, IT project management and digital communication strategy. Based in Île-de-France, France.",
+      "SA (Sales Administration) and Client Relations professional with 25+ years of experience. Specialist in webmarketing, IT project management and digital communication strategy. Based in Île-de-France, France.",
     tagline:
-      "25+ years of experience in ADV management, client relations, IT projects and digital strategy.",
+      "25+ years of experience in SA management, client relations, IT projects and digital strategy.",
     stats: [
       { value: "25+", label: "Years of Experience" },
       { value: "10+", label: "Companies" },
       { value: "MBA", label: "Executive MBA" },
     ],
     aboutMe:
-      "ADV Management and Client Relations professional with 25+ years of experience in billing cycles and contract management. 5 years of experience in project coordination in IT, digital communication and webmarketing sectors. Trilingual French-Spanish-English, passionate about dance, Latin American gastronomy and music. Board member of PEHB club (Portes de l'Essonne Handball) since 2024.",
+      "SA (Sales Administration) and Client Relations professional with 25+ years of experience in billing cycles and contract management. 5 years of experience in project coordination in IT, digital communication and webmarketing sectors. Trilingual French-Spanish-English, passionate about dance, Latin American gastronomy and music. Board member of PEHB club (Portes de l'Essonne Handball) since 2024.",
     skills: [
-      "ADV Management",
+      "SA Management (Sales Administration)",
       "Client Relations",
       "CRM & ERP",
       "IT Project Management",
@@ -385,7 +385,7 @@ export const content = {
     experience: [
       {
         company: "Atlantique Packaging",
-        title: "ADV Manager & Client Relations",
+        title: "SA Manager & Client Relations",
         dateRange: "2024 – 2026",
         bullets: [
           "Coordination and management of ADV department activities",
@@ -405,7 +405,7 @@ export const content = {
       },
       {
         company: "Genopole",
-        title: "ADV Manager – Client Relations & Project Manager",
+        title: "SA Manager – Client Relations & Project Manager",
         dateRange: "2022 – 2023",
         bullets: [
           "Position creation for accounting and commercial department",
@@ -424,7 +424,7 @@ export const content = {
       },
       {
         company: "I.A.P.R.",
-        title: "ADV Manager & Client Relations, CRM, IT Project Manager",
+        title: "SA Manager & Client Relations, CRM, IT Project Manager",
         dateRange: "2007 – 2017",
         bullets: [
           "Billing cycle and dispute management (300+ clients)",
@@ -456,13 +456,13 @@ export const content = {
         school: "VISIPLUS Digital Learning",
         degree: "Executive MBA – Web Marketing Strategies & Digital Communication Projects",
         dateRange: "2020 – 2021",
-        achievements: ["RNCP Level 7 certified (EU)"],
+        achievements: ["DNCP Level 7 certified (EU)"],
       },
       {
         school: "IESA Multimédia",
         degree: "Multimedia Project Manager",
         dateRange: "2017 – 2018",
-        achievements: ["With Honours", "RNCP Level 6 certified (EU)"],
+        achievements: ["With Honours", "DNCP Level 6 certified (EU)"],
       },
     ],
   },

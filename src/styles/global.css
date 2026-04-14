@@ -210,6 +210,35 @@ html {
    ACCESSIBILITY
    ═══════════════════════════════════════════════════════ */
 
+/* ═══════════════════════════════════════════════════════
+   TEXT JUSTIFICATION (bio, tagline, descriptions)
+   Excludes lists and bullet items.
+   ═══════════════════════════════════════════════════════ */
+
+#about p,
+#hero .hero-description,
+#projects p,
+#experience .bullet-text {
+  text-align: justify;
+  hyphens: auto;
+}
+
+@media (max-width: 640px) {
+  #about p,
+  #hero .hero-description,
+  #projects p {
+    text-align: left;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════
+   SKILL PILL CAPITALIZATION
+   ═══════════════════════════════════════════════════════ */
+
+.skill-hover {
+  text-transform: capitalize;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;

@@ -6,6 +6,7 @@ import Projects from "../components/Projects.astro";
 import Experience from "../components/Experience.astro";
 import Education from "../components/Education.astro";
 import Footer from "../components/Footer.astro";
+import FloatingContact from "../components/FloatingContact.astro";
 import { siteConfig } from "../config";
 import { getContent } from "../i18n";
 import "../styles/global.css";
@@ -70,6 +71,7 @@ const c = getContent(lang);
       <Education lang={lang} />
     </main>
     <Footer lang={lang} />
+    <FloatingContact lang={lang} />
 
     <script>
       const observer = new IntersectionObserver(

@@ -22,6 +22,8 @@ export const siteConfig = {
   social: {
     email: "migcast@hotmail.com",
     linkedin: "https://www.linkedin.com/in/migcast/",
+    phone: "+33603361666",
+    phoneDisplay: "+33 6 03 36 16 66",
   },
 
   aboutMe:
