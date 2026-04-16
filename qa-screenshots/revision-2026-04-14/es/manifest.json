@@ -1,0 +1,102 @@
+{
+  "url": "https://miguel-castillo.cofoundy.dev/es/",
+  "timestamp": "2026-04-14T22:23:54.538Z",
+  "desktop": {
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "full": {
+      "file": "desktop-full.png",
+      "fileSize": "510KB"
+    },
+    "sections": [
+      {
+        "file": "desktop-hero.png",
+        "section": "hero",
+        "height": 625,
+        "fileSize": "108KB"
+      },
+      {
+        "file": "desktop-about.png",
+        "section": "about",
+        "height": 467,
+        "fileSize": "69KB"
+      },
+      {
+        "file": "desktop-projects.png",
+        "section": "projects",
+        "height": 794,
+        "fileSize": "85KB"
+      },
+      {
+        "file": "desktop-experience.png",
+        "section": "experience",
+        "height": 1166,
+        "fileSize": "186KB"
+      },
+      {
+        "file": "desktop-education.png",
+        "section": "education",
+        "height": 370,
+        "fileSize": "35KB"
+      },
+      {
+        "file": "desktop-footer-5.png",
+        "section": "footer-5",
+        "height": 205,
+        "fileSize": "18KB"
+      }
+    ],
+    "pageHeight": 3655
+  },
+  "mobile": {
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "full": {
+      "file": "mobile-full.png",
+      "fileSize": "457KB"
+    },
+    "sections": [
+      {
+        "file": "mobile-hero.png",
+        "section": "hero",
+        "height": 911,
+        "fileSize": "71KB"
+      },
+      {
+        "file": "mobile-about.png",
+        "section": "about",
+        "height": 863,
+        "fileSize": "69KB"
+      },
+      {
+        "file": "mobile-projects.png",
+        "section": "projects",
+        "height": 1405,
+        "fileSize": "86KB"
+      },
+      {
+        "file": "mobile-experience.png",
+        "section": "experience",
+        "height": 2438,
+        "fileSize": "181KB"
+      },
+      {
+        "file": "mobile-education.png",
+        "section": "education",
+        "height": 564,
+        "fileSize": "34KB"
+      },
+      {
+        "file": "mobile-footer-5.png",
+        "section": "footer-5",
+        "height": 269,
+        "fileSize": "15KB"
+      }
+    ],
+    "pageHeight": 6478
+  }
+}
